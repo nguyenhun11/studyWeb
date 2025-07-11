@@ -1,0 +1,50 @@
+p{
+    color: blue;
+}
+.green {
+    color: green;
+}
+#id_yellow{
+    color: yellow;
+}
+.left{
+    width:50%;
+    background-color: aqua;
+    float: left;
+}
+.right  {
+    width: 20%;
+    background-color: chocolate;
+    float: right;
+}
+.box{
+    background-color: bisque;
+    position: relative;
+    width: 50%;
+    top: 50px;
+    left: 20px;
+}
+.parent{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+}
+.child{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: blue;
+}
+
+.fixed{
+    position: fixed;
+    color: wheat;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.scroll{
+    background-color: gray;
+    height: 100px;
+}
